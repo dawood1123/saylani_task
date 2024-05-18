@@ -1,0 +1,553 @@
+#navbar {
+    position: fixed;
+      top: 35;
+      width: 100%;
+      z-index: 1000;
+      margin-bottom: 50px;
+      background-color: white;
+      border-bottom: solid #dddddd 2px;
+  }
+.top_bar{
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    height: 40px;
+    transition: 0.3s;
+}
+
+body .scrolled #navbar{
+    transform: translateY(-8px);
+}
+
+@media screen and (min-width: 480px) {
+    
+  }
+
+#email{
+    margin-left: 30px;
+    
+}
+
+#phone{
+
+    margin-left: 30px;
+}
+
+#whatsapp{
+    margin-left: 50px;
+    display: inline-flexbox;
+}
+
+#site{
+    margin-left: 20px;
+    display:flex;
+    vertical-align:middle ;
+}
+#enb{
+     background-color: white;
+     border: solid 0.5px;
+    vertical-align: middle;
+    padding: 7px 18px;
+    font-size: 15px;
+    color: gray;
+    margin-left: 760px;
+    border-color: rgb(192, 192, 192);
+    
+}
+
+
+#donate{
+
+    margin-left: 30px;
+    background-color: #0e6db8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all 0.3s;
+}
+
+#donate:hover{
+
+    transform: scale(1.1);
+}
+#sponser{
+    background-color: #8dc740;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    padding: 5px 20px;
+}
+#sponser:hover{
+
+    transform: scale(1.1);
+}
+
+#pic{
+
+    margin-top: 70px;
+}
+#back{
+   
+}
+
+#front{
+
+    position: absolute;
+    top: 260px;
+    margin-left: 50px;
+}
+
+.animated-text{
+
+    font-size: 30px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+
+}
+
+.animated-text span::before{
+    content: "Daily meals,";
+    color: #0e6db8;
+    animation: words 20s infinite;
+}
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: white;
+    border-left: 2px solid #0e6db8 ;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+
+}
+
+@keyframes cursor{
+
+    to {
+        border-left: 2px solid #0e6db8 ;
+    }
+}
+
+@keyframes words {
+    0%, 14% {
+        content: "Daily meals,";
+
+    }
+
+    15%, 29% {
+        content: "Monthly family support,";
+
+    }
+
+    30%, 42% {
+        content: "clean water,";
+
+    }
+
+    43%, 57% {
+        content: "Education,";
+
+    }
+
+    58%, 71% {
+        content: "IT and Vocational training,";
+
+    }
+
+    72%, 86% {
+        content: "Assistance to disaster affecties,";
+
+    }
+
+    87%, 100% {
+        content: "Healthcare and lot more.";
+
+    }
+}
+
+@keyframes typing  {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+#saylani{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #8dc740;
+}
+
+#welfare{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#n-line{
+
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+}
+
+.b2{
+
+    padding:15px 35px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+
+#div2{
+    margin: 40px;
+    background-color: #efffda;
+    width: auto;
+    height: 140px;
+    border-radius: 10px;
+    
+    
+}
+
+#div3{
+        margin-left: 30px;
+        color: white;
+        display: inline-block;
+        border-radius: 5px;
+        background-color: rgb(59, 59, 59);
+        padding: 15px;
+        height: 58px;
+        width: 347px;
+}
+
+#btn01{
+
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    padding: 12px;
+        height: 52px;
+        width: 300px;
+        font-weight: bold;
+    transition: all 0.2s;
+    color: rgb(59, 59, 59);
+
+}
+
+#btn01:hover{
+    background-color: rgb(59, 59, 59);
+    color: white; 
+    transform: scale(1.1);
+}
+
+#btn02{
+
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    padding: 12px;
+        height: 52px;
+        width: 160px;
+        font-weight: bold;
+        transition: all 0.2s;  
+        color: rgb(59, 59, 59); 
+
+}
+#btn02:hover{
+    background-color: rgb(59, 59, 59);
+    color: white; 
+    transform: scale(1.1);
+}
+
+#btn03{
+
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    padding: 12px;
+        height: 52px;
+        width: 130px;
+        font-weight: bold;
+        transition: all 0.2s;
+        color: rgb(59, 59, 59);
+}
+#btn03:hover{
+    background-color: rgb(59, 59, 59);
+    color: white; 
+    transform: scale(1.1);
+}
+#btn04{
+
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    padding: 12px;
+        height: 52px;
+        width: 105px;
+        font-weight: bold;
+        transition: all 0.2s;
+        color: rgb(59, 59, 59);
+}
+#btn04:hover{
+    background-color: rgb(59, 59, 59);
+    color: white; 
+    transform: scale(1.1);
+}
+#btn05{
+
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8dc740;
+    padding: 12px;
+        height: 52px;
+        width: 155px;
+        font-weight: bold;
+    color: white;
+    transition: all 0.2s;
+    color: rgb(59, 59, 59);
+}
+#btn05:hover{
+    transform: scale(1.1);
+}
+#div4{
+    text-align: center;
+    
+}
+
+#nnn{
+    font-weight: 650;
+    
+}
+
+#wel{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 40px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+#wel:hover{
+    transform: scale(1.1);
+}
+
+.img1{
+    display: grid;
+}
+
+#med{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#med:hover{
+    transform: scale(1.1);
+}
+.img2{
+    display: grid;
+}
+
+#on{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+#on:hover{
+    transform: scale(1.1);
+}
+.img3{
+    display: grid;
+}
+
+#clean{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#clean:hover{
+    transform: scale(1.1);
+}
+.img4{
+    display: grid;
+}
+
+#edu{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#edu:hover{
+    transform: scale(1.1);
+}
+.img5{
+    display: grid;
+}
+
+#food{
+    background-color: #efffda ;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#food:hover{
+    transform: scale(1.1);
+}
+
+.img6{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#tags{
+    margin-top: 50px;
+    display: flex;
+    
+}
+#donation{
+    height: 280px;
+    width: 480px;
+    background-image: url(./111.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    transition: 0.3s;
+    
+}
+#donation:hover{
+    transform: scale(1.1);
+}
+
+#donation_1{
+
+    width: 96%;
+    background-color: #8dc740;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+#img_oth{
+    width: 50%;
+    height: 100%;
+}
+#donation1{
+    height: 280px;
+    width: 480px;
+    background-image: url(./2222.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+#donation1:hover{
+    transform: scale(1.1);
+}
+
+#donation2{
+    height: 280px;
+    width: 480px;
+    background-image: url(./3333.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    transition: 0.3s;
+    
+}
+#donation2:hover{
+    transform: scale(1.1);
+}
+
+#other{
+    width: 100%;
+    background-color: #ffffff;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+
+}
+
+#other_pro{
+    margin-left: 20px;
+}
+
+#divv1{
+    
+    margin: 20px;
+}
+h5{
+    color: #0e6db8;
+}
+
+#Box{
+    margin-top: 50px;
+    text-align: center;
+}
+#top_text{
+    color: #8dc740;
+}
+
+#carouselExample{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
